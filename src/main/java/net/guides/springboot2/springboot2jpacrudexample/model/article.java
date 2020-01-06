@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "article")
-public class Employee {
+public class article {
 
 	private long id;
 	
@@ -19,11 +19,11 @@ public class Employee {
 	private String cat;
 	private double prixa;
 	private double prixv;
-	public Employee() {
+	public article() {
 		
 	}
 	
-	public Employee(String desc,int qte, String cat,String nom, double prixa,double prixv) {
+	public article(String desc,int qte, String cat,String nom, double prixa,double prixv) {
 	
 		this.desc= desc;
 		this.qte= qte;
