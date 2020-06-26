@@ -7,7 +7,7 @@ pipeline {
             steps {
             gitCheckout(
                 branch: "master",
-                url: "https://github.com/spring-projects/spring-petclinic.git"
+                url: "https://github.com/AMIBYO/maven-project.git"
             )
             }
     }
