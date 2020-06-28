@@ -2,6 +2,9 @@
 
 pipeline {
     agent any
+    node {
+         notification type: "slack", message: "Build succeeded"
+    }
     stages {
         stage( ' ') {
             steps {
