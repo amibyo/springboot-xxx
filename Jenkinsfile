@@ -2,11 +2,9 @@
 
 pipeline {
     agent any
-    node {
-         notification type: "slack", message: "Build succeeded"
-    }
+  
     stages {
-        stage( ' ') {
+        stage( 'file-lib-1 ') {
             steps {
             tache(
                 branch: "master",
@@ -18,7 +16,7 @@ pipeline {
      
         
         
-       stage('Notification') {
+       stage('file-lib-2') {
             steps {
            notification type: "slack", message: "Build succeeded"
             }
