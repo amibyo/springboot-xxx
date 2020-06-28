@@ -11,6 +11,10 @@ pipeline {
             )
             }
     }
-
+       stage('Maven') {
+            steps {
+           notification type: "slack", message: "Build succeeded"
+            }
+    }
     }
 }
