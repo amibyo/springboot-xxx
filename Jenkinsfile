@@ -1,4 +1,4 @@
-@Library('lib-maven@master') _
+@Library('jenkins-library2@master') _
 
 pipeline {
     agent any
