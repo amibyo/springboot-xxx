@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-            gitCheckout(
+            tache(
                 branch: "master",
                 url: "https://github.com/AMIBYO/maven-project.git"
             )
