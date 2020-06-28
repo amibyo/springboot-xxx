@@ -21,8 +21,8 @@ pipeline {
                 branch: "master",
                 url: "https://github.com/AMIBYO/maven-project.git"
             )
-           maven 
-            }
+            
+            
     }
     }
 }
