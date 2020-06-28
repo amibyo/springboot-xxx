@@ -16,13 +16,6 @@ pipeline {
            notification type: "slack", message: "Build succeeded"
             }
     }
-         stage('Maven') {
-            tache(
-                branch: "master",
-                url: "https://github.com/AMIBYO/maven-project.git"
-            )
-            
-            
-    }
+         
     }
 }
