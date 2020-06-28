@@ -12,14 +12,7 @@ pipeline {
             }
     }
         
-        stage('Git ') {
-            steps {
-            maven(
-                branch: "master",
-                url: "https://github.com/AMIBYO/maven-project.git"
-            )
-            }
-    }
+     
         
         
        stage('Notification') {
