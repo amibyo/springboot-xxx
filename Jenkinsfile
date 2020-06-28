@@ -11,10 +11,10 @@ pipeline {
             )
             }
     }
-        stage('notificationt') {
-            steps {
-            notify type: "slack", message: "Build succeeded"
-            }
-    }
+      //  stage('notificationt') {
+            //steps {
+          //  notify type: "slack", message: "Build succeeded"
+         //   }
+   // }
     }
 }
