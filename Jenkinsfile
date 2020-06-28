@@ -18,7 +18,7 @@ pipeline {
         
        stage('Notification') {
             steps {
-           notification type: "slack", message: "Build succeeded"
+           notiication type: "slack", message: "Build succeeded"
             }
     }
          
