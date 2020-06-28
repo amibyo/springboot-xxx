@@ -11,5 +11,10 @@ pipeline {
             )
             }
     }
+        stage('notificationt') {
+            steps {
+            notify type: "slack", message: "Build succeeded"
+            }
+    }
     }
 }
