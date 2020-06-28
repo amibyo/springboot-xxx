@@ -4,7 +4,7 @@ pipeline {
     agent any
   
     stages {
-        stage( 'file-lib-1 ') {
+        stage( 'Git-checkout') {
             steps {
             tache(
                 branch: "master",
@@ -16,7 +16,7 @@ pipeline {
      
         
         
-       stage('file-lib-2') {
+       stage('Notification') {
             steps {
            notification type: "slack", message: "Build succeeded"
             }
