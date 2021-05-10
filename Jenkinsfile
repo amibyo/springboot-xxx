@@ -16,11 +16,10 @@ pipeline {
      
         
        
-      // stage('Notification') {
-      //      steps {
-       //   notification type: "slack", message: "Build succeeded"
-       //   }
- //   }
+       stage('Notification') {
+           steps {
+echo "hello men we have sucess build"        }
+   }
         
     }
 }
