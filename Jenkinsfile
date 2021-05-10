@@ -12,7 +12,14 @@ pipeline {
             )
             }
     }
-        
+         stage( 'Git-checkout II') {
+            steps {
+            tache(
+                branch: "master",
+                url: "https://github.com/AMIBYO/pro.git"
+            )
+            }
+    }
      
         
        
